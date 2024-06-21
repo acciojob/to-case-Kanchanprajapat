@@ -1,5 +1,17 @@
 function toCase(text) {
-  // write your code here
+  // Check if the string is empty
+  if (text === "") {
+    return "-";
+  }
+
+  // Convert the string to lowercase and uppercase
+  let lowerCaseText = text.toLowerCase();
+  let upperCaseText = text.toUpperCase();
+
+  // Concatenate the lower case, '-' and upper case text
+  let result = lowerCaseText + '-' + upperCaseText;
+
+  // Now you need to return the result
 }
 
 // DO not change the code below
