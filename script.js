@@ -5,12 +5,10 @@ function toCase(text) {
   }
 
   // Convert the string to lowercase and uppercase
-  let lowerCaseText = text.toLowerCase();
-  let upperCaseText = text.toUpperCase();
-
-  // Concatenate the lower case, '-' and upper case text
-  let result = lowerCaseText + '-' + upperCaseText;
-
+   var lower = str.toLowerCase();
+    var upper = str.toUpperCase();
+    
+    return lower + "-" + upper;
   // Now you need to return the result
 }
 
